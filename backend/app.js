@@ -6,6 +6,8 @@ const dotenv = require('dotenv').config();
 
 const userRoutes = require('./routes/user');
 const comicRoutes = require('./routes/comic');
+const User = require('./models/User');
+const Comic = require('./models/Comic').
 
 const app = express();
 app.use(helmet());
